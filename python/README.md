@@ -78,3 +78,4 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 ## Table of Contents
 
 -[array-reverse](data_structures/array-reverse.md)
+-[insertShiftArray](data_structures/insertShiftArray.md)
