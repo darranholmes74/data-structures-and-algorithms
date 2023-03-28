@@ -4,48 +4,58 @@ class LinkedList:
         self.head = head
 
     def __str__(self):
-
-        while self.head is None:
+        if self.head is None:
             return f'{None}'
 
-        while self.head is not None:
-            return f"""{{ {self.head.value} }} -> {None}"""
+        itr = self.head
+        llstr = ''
 
-        while self.head is not None:
-            current = self.head
-            new_current = self.head.next.value
-            pre_value = self.head.value
-            while current is pre_value:
-                pre_value = new_current
-            return f"""{{ {self.head.next.value} }} -> {{ {self.head.value} }} -> {None}"""
+        while itr:
+            llstr += '{ ' + str(itr.value) + ' }' + ' -> '
+            itr = itr._next
+
+            if itr is None:
+                llstr += '' + str(None)
+
+        return llstr
+
+
 
     def traverse_list(self):
         pass
 
     def insert(self, value):
-        node = Node(value)
-        node.next = self.head
+        node = Node(value, self.head)
         self.head = node
 
     def includes(self, value):
-        pass
+        itr = self.head
+        while itr:
+            if itr.value == value:
+                return True
+            else:
+                itr = itr._next
+            continue
 
 
 class Node:
     def __init__(self, value, _next=None):
-        # value, next
         self.value = value
         self._next = _next
-    # Node(3, node2)
-    # Node.value = 3
-    # Node._next = node2
+
 
 
 class TargetError:
     pass
 
 
-test = LinkedList()
+if __name__ == '__main__':
+    test = LinkedList()
+    test.insert(5)
+    test.__str__()
+
+
+
 
 
 
