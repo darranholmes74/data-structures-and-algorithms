@@ -79,9 +79,8 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 -[array-reverse](data_structures/array-reverse.md)
 
+-[linked-list](linked_list/README.md)
+
 -[insertShiftArray](data_structures/insertShiftArray.md)
 
 -[array-binary](data_structures/array-binary.md)
-
--[linked-list](linked_list/README.md)
-
