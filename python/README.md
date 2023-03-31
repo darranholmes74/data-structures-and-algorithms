@@ -84,3 +84,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 -[insertShiftArray](data_structures/insertShiftArray.md)
 
 -[array-binary](data_structures/array-binary.md)
+
+- [stack-and-queue](data_structures/stack_and_queue.md)
