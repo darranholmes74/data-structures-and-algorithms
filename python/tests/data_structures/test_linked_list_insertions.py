@@ -1,5 +1,5 @@
 import pytest
-from linked_list.linked_list import LinkedList
+from data_structures.linked_list import LinkedList
 
 # @pytest.mark.skip("TODO")
 def test_append():
@@ -11,10 +11,10 @@ def test_append():
 
     linked_list.append("cucumber")
 
-    assert str(linked_list) == "{ banana } -> { apple } -> { cucumber } -> NULL"
+    assert str(linked_list) == "{ banana } -> { apple } -> { cucumber } -> None"
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_before():
     linked_list = LinkedList()
 
@@ -24,7 +24,7 @@ def test_insert_before():
 
     linked_list.insert_before("apple", "cucumber")
 
-    assert str(linked_list) == "{ banana } -> { cucumber } -> { apple } -> NULL"
+    assert str(linked_list) == "{ banana } -> { cucumber } -> { apple } -> None"
 
 
 @pytest.mark.skip("TODO")
