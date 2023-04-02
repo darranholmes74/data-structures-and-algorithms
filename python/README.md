@@ -81,7 +81,7 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 -[linked-list](linked_list/README.md)
 
--[insertShiftArray](data_structures/insertShiftArray.md)
+-[insertShift tArray](data_structures/insertShiftArray.md)
 
 -[array-binary](data_structures/array-binary.md)
 
