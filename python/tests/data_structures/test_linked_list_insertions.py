@@ -1,5 +1,5 @@
 import pytest
-from data_structures.linked_list import LinkedList
+from data_structures.linked_list import LinkedList, TargetError
 
 # @pytest.mark.skip("TODO")
 def test_append():
@@ -27,7 +27,7 @@ def test_insert_before():
     assert str(linked_list) == "{ banana } -> { cucumber } -> { apple } -> None"
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_before_first():
     linked_list = LinkedList()
 
@@ -35,10 +35,10 @@ def test_insert_before_first():
 
     linked_list.insert_before("apple", "cucumber")
 
-    assert str(linked_list) == "{ cucumber } -> { apple } -> NULL"
+    assert str(linked_list) == "{ cucumber } -> { apple } -> None"
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_after():
     linked_list = LinkedList()
 
@@ -48,10 +48,10 @@ def test_insert_after():
 
     linked_list.insert_after("banana", "cucumber")
 
-    assert str(linked_list) == "{ banana } -> { cucumber } -> { apple } -> NULL"
+    assert str(linked_list) == "{ banana } -> { cucumber } -> { apple } -> None"
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_before_empty():
     linked_list = LinkedList()
 
@@ -59,7 +59,7 @@ def test_insert_before_empty():
         linked_list.insert_before("radish", "zucchinni")
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_before_missing():
     linked_list = LinkedList()
 
@@ -69,7 +69,7 @@ def test_insert_before_missing():
         linked_list.insert_before("radish", "zucchinni")
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_after_empty():
     linked_list = LinkedList()
 
@@ -77,7 +77,7 @@ def test_insert_after_empty():
         linked_list.insert_after("radish", "zucchinni")
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_insert_after_missing():
     linked_list = LinkedList()
 
