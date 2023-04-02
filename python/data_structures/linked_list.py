@@ -49,6 +49,7 @@ class LinkedList:
 
     def insert_before(self, value1, value2):
         if self.head is None:
+            raise TargetError("Nothing")
             self.head = Node(value2)
             return
 
@@ -63,6 +64,23 @@ class LinkedList:
                 return
             current = current.next
 
+        raise TargetError("Nothing")
+
+    def insert_after(self, value1, value2):
+        if self.head is None:
+            raise TargetError("Nothing")
+            self.head = Node(value2)
+            return
+        current = self.head
+        while current is not None:
+            if current.value == value1:
+                new_node = Node(value2)
+                new_node.next = current.next
+                current.next = new_node
+                return
+            current = current.next
+
+        raise TargetError("Nothing")
 
 
 
@@ -74,7 +92,7 @@ class Node:
         self.next = _next
 
 
-class TargetError:
+class TargetError(Exception):
     pass
 
 
