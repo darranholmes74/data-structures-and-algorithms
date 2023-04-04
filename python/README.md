@@ -86,3 +86,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 -[array-binary](data_structures/array-binary.md)
 
 - [stack-and-queue](data_structures/stack_and_queue.md)
+
+- [stack-queue-pseudo](code_challenges/stack_queue_pseudo.md)
