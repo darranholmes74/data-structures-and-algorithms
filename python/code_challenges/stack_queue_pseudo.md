@@ -2,7 +2,7 @@
 Create a new class called pseudo queue
 
 ## Whiteboard Process
-[](code_challenges/assets/CodeChallenge11.png)
+![](code_challenges/assets/CodeChallenge11.png)
 
 ## Approach & Efficiency
 Understand how the queue would add and remove from a stack was the first step in my approach.
