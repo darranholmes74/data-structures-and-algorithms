@@ -90,3 +90,7 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - [stack-queue-pseudo](code_challenges/stack_queue_pseudo.md)
 
 - [stack-queue-brackets](code_challenges/stack_queue_brackets.md)
+
+- [binary-tree](data_structures/binary_tree.py)
+
+- [binary-search-tree](data_structures/binary_search_tree.py)
