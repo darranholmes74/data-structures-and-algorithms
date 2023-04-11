@@ -2,19 +2,25 @@ from data_structures.binary_tree import BinaryTree
 
 
 def breadth_first(tree):
-    def walk(root, front, rear):
-        if root is None:
-            return None
-        if root.value is not None:
-            root.value == front
-            walk(root.left)
-            walk(root.right)
-        if root.left is not None:
-            front == root.left
-            tree.append(front)
-        if root.right is not None:
-            rear == root.left
-            tree.append(rear)
+    if tree.root is None:
+        return []
 
-        return walk(root, front, rear)
+    queue = []
+    queue.append(tree.root)
+
+    result = []
+    while len(queue) > 0:
+        node = queue.pop(0)
+        result.append(node.value)
+
+        if node.left is not None:
+            queue.append(node.left)
+
+        if node.right is not None:
+            queue.append(node.right)
+
+    return result
+
+
+
 
