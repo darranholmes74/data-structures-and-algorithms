@@ -94,3 +94,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - [binary-tree](data_structures/binary_tree.py)
 
 - [binary-search-tree](data_structures/binary_search_tree.py)
+
+- [tree max](data_structures/tree-max.md)
