@@ -91,8 +91,10 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 
 - [stack-queue-brackets](code_challenges/stack_queue_brackets.md)
 
-- [binary-tree](data_structures/binary_tree.py)
+- [binary-tree](data_structures/binary_tree.md)
 
-- [binary-search-tree](data_structures/binary_search_tree.py)
+- [binary-search-tree](data_structures/binary_search_tree.md)
 
 - [tree max](data_structures/tree-max.md)
+
+- [breadth-first Traversal](code_challenges/tree_breadth_first.md)
