@@ -98,3 +98,5 @@ From the root of the `data-structures-and-algorithms/python` folder, execute the
 - [tree max](data_structures/tree-max.md)
 
 - [breadth-first Traversal](code_challenges/tree_breadth_first.md)
+
+- [tree-fizz-buzz](code_challenges/tree_fizz_buzz.md)
