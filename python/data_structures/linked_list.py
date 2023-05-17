@@ -82,6 +82,24 @@ class LinkedList:
 
         raise TargetError("Nothing")
 
+    def kth_from_end(self, k):
+        if not self.head or k < 0:
+            raise TargetError("Invalid k value")
+
+        slow = fast = self.head
+
+        for node in range(k):
+            if fast.next:
+                fast = fast.next
+            else:
+                raise TargetError("k is out of range")
+
+        while fast.next:
+            slow = slow.next
+            fast = fast.next
+
+        return slow.value
+
 
 class Node:
     def __init__(self, value, _next=None):
