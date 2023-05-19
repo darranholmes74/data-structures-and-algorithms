@@ -1,7 +1,7 @@
 Find the first repeated word in a book.
 
 ## Whiteboard Process
-![](code_challenges/assets/CodeChallenge32.png)
+![](../code_challenges/assets/CodeChallenge32.png)
 
 
 ## Approach & Efficiency

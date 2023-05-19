@@ -1,4 +1,3 @@
-import pytest
 from code_challenges.stack_queue_pseudo import PseudoQueue
 
 

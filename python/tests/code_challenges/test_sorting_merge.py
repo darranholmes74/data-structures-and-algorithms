@@ -1,4 +1,3 @@
-import pytest
 from code_challenges.sorting.merge import mergesort
 
 

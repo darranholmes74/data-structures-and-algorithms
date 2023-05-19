@@ -2,7 +2,7 @@
 create a function called insertShiftArray
 
 ## Whiteboard Process
-![Insert Shift Array](data_structures/assets/insertShift.png)
+![Insert Shift Array](../data_structures/assets/insertShift.png)
 
 ## Approach & Efficiency
 We had an idea about how to create the function from the start however we used chatgpt to refresh our memory on how you use ":" to split arrays.

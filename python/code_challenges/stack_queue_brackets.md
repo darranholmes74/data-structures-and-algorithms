@@ -6,7 +6,7 @@ representing whether or not the brackets in the string are balanced
 
 
 ## Whiteboard Process
-![](code_challenges/assets/CodeChallenge13.png)
+![](../code_challenges/assets/CodeChallenge13.png)
 
 ## Approach & Efficiency
 The biggest step for me on this code challenge was finding out how to compare the open and closing brackets.
