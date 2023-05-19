@@ -2,7 +2,7 @@
 k-th value from the end of a linked list.
 
 ## WhiteBoard
-![](data_structures/assets/CodeChallenge7.png)
+![WhiteBoard](data_structures/assets/CodeChallenge7.png)
 
 ## Code
 [LinkedList](data_structures/linked_list.py)
