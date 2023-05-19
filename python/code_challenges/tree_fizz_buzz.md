@@ -4,6 +4,11 @@ Conduct “FizzBuzz” on a k-ary tree while traversing through it to create a n
 ## WhiteBoard
 ![](../code_challenges/assets/CodeChallenge18.png)
 
+
+## Code
+[tree fizz buzz](../code_challenges/tree_fizz_buzz.py)
+
+
 ## Approach & Efficiency
 I first found out a way to check if the value was dividable by 3 or 5 then I had to get the node to change based the checks.
 
