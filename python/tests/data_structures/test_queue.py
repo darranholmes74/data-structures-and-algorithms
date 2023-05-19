@@ -1,6 +1,7 @@
 import pytest
-from data_structures.queue import Queue
+
 from data_structures.invalid_operation_error import InvalidOperationError
+from data_structures.queue import Queue
 
 
 def test_exists():

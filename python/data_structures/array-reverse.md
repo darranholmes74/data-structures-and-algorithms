@@ -2,7 +2,7 @@
 
 ## WhiteBoard Process
 
-![reverse-image](data_structures/assets/CodeChallenge1Whiteboard.jpg)
+![reverse-image](../data_structures/assets/CodeChallenge1Whiteboard.jpg)
 
 ## Approach & Efficiency
 

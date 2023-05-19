@@ -1,4 +1,3 @@
-import pytest
 from code_challenges.stack_queue_animal_shelter import AnimalShelter, Dog, Cat
 
 

@@ -2,7 +2,7 @@
 
 ## WhiteBoard Process
 
-![array-binary](data_structures/assets/arrayBinary.png)
+![array-binary](../data_structures/assets/arrayBinary.png)
 
 ## Approach & Efficiency
 

@@ -1,4 +1,3 @@
-import pytest
 from code_challenges.insertion_sort import insertion_sort
 
 

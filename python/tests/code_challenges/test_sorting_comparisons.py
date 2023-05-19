@@ -1,4 +1,3 @@
-import pytest
 from code_challenges.sorting.comparisons import sort_movies_by_title, sort_movies_by_year, movies
 # from code_challenges.sorting.movies import movies
 

@@ -2,10 +2,10 @@
 k-th value from the end of a linked list.
 
 ## WhiteBoard
-![WhiteBoard](data_structures/assets/CodeChallenge7.png)
+![](../data_structures/assets/CodeChallenge7.png)
 
 ## Code
-[LinkedList](data_structures/linked_list.py)
+[LinkedList](../data_structures/linked_list.py)
 
 ## Approach & Efficiency
 Figuring out how to get the fast.next to be at the correct node was the most challenging part.

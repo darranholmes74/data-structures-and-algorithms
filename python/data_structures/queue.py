@@ -1,5 +1,6 @@
-from data_structures.linked_list import Node
 from data_structures.invalid_operation_error import InvalidOperationError
+from data_structures.linked_list import Node
+
 
 # class InvalidOperationError(Exception):
 #     pass
