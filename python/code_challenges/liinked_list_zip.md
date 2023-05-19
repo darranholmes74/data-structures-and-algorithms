@@ -2,10 +2,10 @@
 k-th value from the end of a linked list.
 
 ## WhiteBoard
-![](code_challenges/assets/CodeChallenge8.png)
+![](../code_challenges/assets/CodeChallenge8.png)
 
 ## Code
-[LinkedList](code_challenges/linked_list_zip.py)
+[LinkedList](../code_challenges/linked_list_zip.py)
 
 ## Approach & Efficiency
 My approach for this code was to add the value of each node of both linkedlist to a str and conjugated
