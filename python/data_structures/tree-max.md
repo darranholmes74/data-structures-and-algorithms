@@ -2,7 +2,7 @@
 Find the Maximum Value in a Binary Tree
 
 ## WhiteBoard
-![](../data_structures/assets/CodeChallenge16.png)
+![whiteboard](../data_structures/assets/CodeChallenge16.png)
 
 ## Approach & Efficiency
 This challenge was similar to the way the binary tree worked, but I had to figure out how to
