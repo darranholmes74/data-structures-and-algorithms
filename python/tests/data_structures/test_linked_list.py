@@ -1,5 +1,5 @@
 import pytest
-from linked_list.linked_list import LinkedList
+from data_structures.linked_list import LinkedList
 
 
 def test_exists():
@@ -53,7 +53,7 @@ def test_to_string_double():
     assert str(linked_list) == "{ banana } -> { apple } -> None"
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_includes_true():
     linked_list = LinkedList()
 
@@ -64,7 +64,7 @@ def test_includes_true():
     assert linked_list.includes("apple")
 
 
-@pytest.mark.skip("TODO")
+# @pytest.mark.skip("TODO")
 def test_includes_false():
     linked_list = LinkedList()
 
